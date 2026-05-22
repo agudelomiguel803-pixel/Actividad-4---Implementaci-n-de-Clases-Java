@@ -1,11 +1,11 @@
-public class product {
+public class Product {
     private String id;
     private String name;
     private double price;
     private int stock;
     private boolean available;
 
-    public product() {
+    public Product() {
         this.id = "1";
         this.name = "Computador";
         this.price = 300000.0;
@@ -13,7 +13,7 @@ public class product {
         this.available = true;
     }
 
-    public product(String id, String name, double price, int stock, boolean disponible) {
+    public Product(String id, String name, double price, int stock, boolean disponible) {
         this.id = id;
         this.name = name;
         this.price = price;

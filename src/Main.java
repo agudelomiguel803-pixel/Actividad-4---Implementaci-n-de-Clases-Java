@@ -1,7 +1,7 @@
-public class App {
+public class Main {
     public static void main(String[] args) throws Exception {
-        product product1 = new product();
-        product product2 = new product("2", "Laptop", 2500000, 55, true );
+        Product product1 = new Product();
+        Product product2 = new Product("2", "Laptop", 2500000, 55, true );
          
         //Profe aca uso los metodos setters.
         product1.setName("Aire acondicionado");
@@ -17,7 +17,7 @@ public class App {
         System.out.println(product1.toString());
         System.out.println("--------------------------------------");
         System.out.println(product2.toString());
-        
+
     }
 
 
