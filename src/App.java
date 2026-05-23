@@ -1,4 +1,4 @@
-public class Main {
+public class App {
     public static void main(String[] args) throws Exception {
         Product product1 = new Product();
         Product product2 = new Product("2", "Laptop", 2500000, 55, true );
@@ -12,7 +12,7 @@ public class Main {
         System.out.println("El Precio del producto 1 es:"  + product1.getPrice());
         System.out.println("------------------------------------------------------");
         System.out.println("El Nombre del productos 2 es: " + product2.getName());
-        System.out.println("Precio del producto 2: " + product2.getPrice());
+        System.out.println("El Precio del producto 2: " + product2.getPrice());
         System.out.println("-----------------------------------------------------------");
         System.out.println(product1.toString());
         System.out.println("--------------------------------------");
